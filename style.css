@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    width: 80%;
+    margin-top: 16px;
+}
+ul{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.coment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 60px;
+}
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .5s;
+    font-family: 'kadam Thmor Pro',sans-serif;
+}
+li:hover{
+    color: orangered;
+    
+}
+#logo{
+    width: 150px;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 100px;
+}
+#banner{
+    background-image: url('https://th.bing.com/th/id/R.40ddd24a908e760f74a27ed44cb26594?rik=AT%2bciMqgpD%2bZpg&riu=http%3a%2f%2fmojtv.net%2fimages%2f3f6d295f-069e-4ee8-9006-36663208fabf.jpg&ehk=aV%2fa3M7sKMYISvd0XSfUkzyGPZYFgu80KwrpLeKAqdg%3d&risl=&pid=ImgRaw&r=0');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+
+}
+#trailer-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content:center;
+}
+.content{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trailer{
+    width: 60%;
+    
+}
+#sinopse{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.description{
+    color: aliceblue;
+    font-size: 10px;
+    font-family: 'kadam Thmor Pro',sans-serif;
+    width: 100%;
+}
+.button{
+    width: 150px;
+    height: 30px;
+    background-color: orangered;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    
+}
+.button:hover{
+    background-color: wheat;
+    color: darkred;
+}
+.actor-cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+.card{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: aliceblue;
+    font-family:'kadam Thmor Pro',sans-serif;
+    font-size: 17px;
+}
+.card:hover{
+    transform: scale(1.04);
+}
+.banner-1{
+    background-image: url('https://images.indianexpress.com/2021/01/chris-pratt-fallen-kingdom-1200.jpg');
+}
+.banner-2{
+    background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=[1020%2C266]&w=2000&h=1000&url=https:%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2020%2F03%2F2482_sb_00031r-2000.jpg');
+}
+.banner-3{
+    background-image: url('https://th.bing.com/th/id/R.c63ad10de65e67334b93969613e20b68?rik=FrJTjX8zkBPHtg&pid=ImgRaw&r=0');
+}
+.banner-4{
+    background-image: url('https://nypost.com/wp-content/uploads/sites/2/2022/09/jurassic-world-dominion-new-alan.jpg?quality=90&strip=all');
+}
+.banner-5{
+    background-image: url('https://cdn.mos.cms.futurecdn.net/GkJixyLg5J3NUccNGFfykh.jpg');
+}
+.banner-6{
+    background-image: url('https://i.pinimg.com/originals/44/79/63/44796391b67d5e48e34c647691ee2e1f.jpg');
+}
+.banner-7{
+    background-image: url('https://th.bing.com/th/id/R.63835258a3d6e598ab5142cd211e1a06?rik=eULPHS9qwnH9pQ&pid=ImgRaw&r=0');
+}
+.banner-8{
+    background-image: url('https://th.bing.com/th/id/R.e9cf84a083a2639fb19d03c301c4f664?rik=vXADJVyjZTB0Dg&pid=ImgRaw&r=0');
+}
+.banner-9{
+    background-image: url('https://cibersistemas.pt/wp-content/uploads/2022/02/3938774-untitled-1-recovered-recovered.jpg');
+}
+.banner-10{
+    background-image: url('https://static1.srcdn.com/wordpress/wp-content/uploads/2022/06/Jurassic-World-Dominion-Locust.jpg');
+}
+.banner-11{
+    background-image: url('https://th.bing.com/th/id/OIP.7hk5NuPNmEGU2IwRwFcu1AHaEK?w=259&h=180&c=7&r=0&o=5&dpr=1.7&pid=1.7');
+}
+.banner-12{
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOMK7IEQ395HMD-Xe4URPNgZGwAdgmDQeEZhxMq4CUww_tG8EB3CFutra6Urr0f6Bj3edL0VgUz0FtoI_jAEx3Ikswu-oChDGeJJeSdb2VwLVvYKtFwK6s0J26TrYXLOqqRa2DWkHlldm_8QJ7ZgcXhtVmmBvo64HgY-SyBBSu4fjunBD-mqKLmhzw/w1200-h630-p-k-no-nu/jurassic-world-dominion-bryce-dallas-howard-chris-pratt%20(1).webp');
+}
+.banner-13{
+    background-image: url('https://images.immediate.co.uk/production/volatile/sites/3/2022/06/Omar-Sy-plays-Barry-Sembene-3475dac.jpg?quality=90&fit=700,466');
+}
+.banner-14{
+    background-image: url('https://th.bing.com/th/id/R.a041e8de903ba04009801d5d55be31cc?rik=xUHwYshzqaJ1Xg&pid=ImgRaw&r=0');
+}
+.banner-15{
+    background-image: url('https://th.bing.com/th/id/R.f9997d7dbf4a048227ea28c1183091fb?rik=UTZgjovxyl8LqA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-cXu0uBml7hw%2fW5KnDVJqu9I%2fAAAAAAAAPdg%2f_-V0aTfx5WUQspb3CsRv1Hd6JkAcL4hXgCK4BGAYYCw%2fs1600%2fsnap2018-09-07-11h23m52s242.png&ehk=zEdT2WFlKPnYifxxTABMFAj0xFLEts82s4phs8wInFk%3d&risl=&pid=ImgRaw&r=0');
+}
+footer{
+    height: 250px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+span{
+    color: aliceblue;
+    font-family: 'kadam Thmor Pro',sans-serif;
+}
+.footer-navigation{
+    display: none;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media(max-width: 768px){
+    .footer-navigation{
+        display: block;
+    }
+    nav{
+        display: none;
+        }
+    #banner{
+        background-position: 40%;
+    }
+    #trailer-container{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .trailer{
+        width: 100%;
+    }
+    #sinospe{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .description{
+        width: 100%;
+    }
+    .button{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .cards-content{
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+}
+h1{
+    color: aliceblue;
+    font-family: 'kadam Thmor Pro', sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+.contatos{
+    color: aliceblue;
+    font-size: 16px;
+    font-family: 'kadam Thmor Pro',sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.enviar{
+    width: 150px;
+    height: 30px;
+    background-color: orangered;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    
+}
+.enviar:hover{
+    background-color: wheat;
+    color: darkred;
+}
+@media(max-width: 768px){
+    
+    h1{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      margin-top: 15px;
+     }
+ 
+    #contato{
+        background-position: 40%;
+    }
+    .contatos{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
+.coment{
+    color: aliceblue;
+    font-size: 12px;
+    font-family: 'kadam Thmor Pro',sans-serif;
+    width: 80%;
+    margin-left:180px;
+    margin-bottom: 5%;
+}
+@media(max-width: 768px){       
+    
+    .comentarios{
+       width: 100%;
+       margin: 0px;
+    }
+
+    .coment{
+        width: 100%;
+        margin: 0px;
+
+    }
+}
+    
+
+   
